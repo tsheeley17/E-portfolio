@@ -7,6 +7,11 @@
     box-sizing: border-box;
 }
 
+.resume {
+    display: flex;
+    flex: 1;
+}
+
 h1, h2, h3, h4, h5, h6, span {
     color: #242424;
     text-align: center;
@@ -126,4 +131,15 @@ nav {
 .about-me__info--para {
     font-size: 20px;
     margin-bottom: 28px; 
+}
+
+.about-me__links {
+    margin: 0 16px; 
+}
+
+.about-me__link {
+    margin: 0 16px;
+    font-size: 24px;
+    text-decoration: none;
+    color: #242424
 }
