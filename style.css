@@ -58,6 +58,12 @@ nav {
     margin: 0 12px; 
 }
 
+.container {
+    padding: 50px 0; 
+    display: flex;
+    
+}
+
 .nav__link--anchor--primary {
     background-color: #6030b1;
     padding: 8px 20px;
@@ -88,6 +94,10 @@ nav {
     color: #6030b1
 }
 
+section:nth-child(even) {
+    background-color: #f8f8f8;
+}
+
 /* ABOUT ME */
 
 #about-me {
@@ -97,6 +107,7 @@ nav {
 }
 
 .about-me__info--title {
+    font-size: 32px;
     margin-bottom: 16px;
 }
 
@@ -111,8 +122,8 @@ nav {
 }
 
 .about-me__picture--mask {
-    width: 100px; 
-    height: 100px;
+    width: 120px; 
+    height: 120px;
     border-radius: 50%;
     overflow: hidden;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 1);
@@ -142,4 +153,35 @@ nav {
     font-size: 24px;
     text-decoration: none;
     color: #242424
+}
+
+.about-me__image {
+    display: flex;
+    justify-content: center;
+    margin: 0 auto; 
+    max-width: 60%;
+}
+
+/* Languages */
+
+
+.language__list {
+    display: flex;
+    width: 100%;
+}
+
+.language {
+    width: 25%; 
+}
+
+.language__image--wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.language__image {
+    width: 100%;
+    max-width: 100px;
 }
